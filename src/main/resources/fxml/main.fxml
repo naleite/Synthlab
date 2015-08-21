@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<BorderPane fx:id="window" styleClass="dark, container" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.istic.project.view.JavaFXController">
+	<center>
+		<Pane fx:id="container" />
+	</center>
+	<right>
+        <VBox id="sidebar" alignment="TOP_CENTER" spacing="30">
+            <ListView id="library" fx:id="library"/>
+            <VBox alignment="CENTER" spacing="5">
+                <Label labelFor="$boardBtn" text="Synthesizer">
+                    <font>
+                        <Font size="20"/>
+                    </font>
+                </Label>
+                <Button id="boardBtn" fx:id="boardBtn"/>
+            </VBox>
+            <VBox alignment="CENTER" spacing="5">
+                <Label labelFor="$colorPicker" text="Choose the cables color"/>
+                <ColorPicker fx:id="colorPicker"/>
+            </VBox>
+        </VBox>
+	</right>
+</BorderPane>

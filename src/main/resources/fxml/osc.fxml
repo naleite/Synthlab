@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="300" prefWidth="400" styleClass="module" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <SwingNode fx:id="swingNode" BorderPane.alignment="CENTER" />
+    </center>
+</fx:root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.VBox" id="knob" alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children >
+		<StackPane id="StackPane" >
+			<StackPane fx:id="scale"/>
+			<Button fx:id="button" mnemonicParsing="false" onMouseDragged="#onMouseDragged" onMousePressed="#onMousePressed" styleClass="rotation-button"/>
+			<Button fx:id="indicator" disable="true" mnemonicParsing="false" opacity="1.0" styleClass="rotation-indicator"/>
+		</StackPane>
+		<Label fx:id="name"/>
+	</children>
+</fx:root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.BorderPane" styleClass="module" prefWidth="150" prefHeight="200" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox fx:id="knobs" spacing="15" alignment="CENTER" BorderPane.alignment="CENTER" />
+    </center>
+</fx:root>
+

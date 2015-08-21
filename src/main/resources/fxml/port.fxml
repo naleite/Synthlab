@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<fx:root type="javafx.scene.layout.VBox" alignment="CENTER" spacing="2" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="label"/>
+        <Button fx:id="port" styleClass="port"/>
+    </children>
+</fx:root>
